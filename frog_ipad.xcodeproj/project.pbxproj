@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA9961D817CA48BD00977FC1 /* splash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA9961D717CA48BD00977FC1 /* splash.mp3 */; };
+		BA9961DB17CA4A8100977FC1 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9961DA17CA4A8100977FC1 /* reset.png */; };
+		BA9961DF17CA52AB00977FC1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9961DD17CA52AB00977FC1 /* MainViewController.m */; };
+		BA9961ED17CA5C7A00977FC1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9961EC17CA5C7A00977FC1 /* MainViewController.xib */; };
+		BA9961EF17CA602E00977FC1 /* Forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9961EE17CA602E00977FC1 /* Forest.jpg */; };
+		BA9961F117CA60F700977FC1 /* qs.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9961F017CA60F700977FC1 /* qs.png */; };
+		BADD5C4617CA21B200BC34CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADD5C4517CA21B200BC34CD /* UIKit.framework */; };
+		BADD5C4817CA21B200BC34CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADD5C4717CA21B200BC34CD /* Foundation.framework */; };
+		BADD5C4A17CA21B200BC34CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADD5C4917CA21B200BC34CD /* CoreGraphics.framework */; };
+		BADD5C5017CA21B200BC34CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C4E17CA21B200BC34CD /* InfoPlist.strings */; };
+		BADD5C5217CA21B200BC34CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD5C5117CA21B200BC34CD /* main.m */; };
+		BADD5C5617CA21B200BC34CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD5C5517CA21B200BC34CD /* AppDelegate.m */; };
+		BADD5C5817CA21B200BC34CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C5717CA21B200BC34CD /* Default.png */; };
+		BADD5C5A17CA21B200BC34CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C5917CA21B200BC34CD /* Default@2x.png */; };
+		BADD5C5C17CA21B200BC34CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C5B17CA21B200BC34CD /* Default-568h@2x.png */; };
+		BADD5C5F17CA21B200BC34CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD5C5E17CA21B200BC34CD /* ViewController.m */; };
+		BADD5C6217CA21B200BC34CD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C6017CA21B200BC34CD /* ViewController.xib */; };
+		BADD5C6D17CA223500BC34CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADD5C6C17CA223500BC34CD /* AVFoundation.framework */; };
+		BADD5C7417CA22B400BC34CD /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C6E17CA22B400BC34CD /* background.mp3 */; };
+		BADD5C7517CA22B400BC34CD /* croak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C6F17CA22B400BC34CD /* croak.mp3 */; };
+		BADD5C7617CA22B400BC34CD /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7017CA22B400BC34CD /* frog.png */; };
+		BADD5C7717CA22B400BC34CD /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7117CA22B400BC34CD /* jump.mp3 */; };
+		BADD5C7817CA22B400BC34CD /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7217CA22B400BC34CD /* rock.png */; };
+		BADD5C7917CA22B400BC34CD /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7317CA22B400BC34CD /* sea.jpg */; };
+		BADD5C7B17CA2E8F00BC34CD /* jump1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7A17CA2E8F00BC34CD /* jump1.mp3 */; };
+		BADD5C7D17CA30B800BC34CD /* croak1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADD5C7C17CA30B800BC34CD /* croak1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA9961D717CA48BD00977FC1 /* splash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = splash.mp3; sourceTree = "<group>"; };
+		BA9961DA17CA4A8100977FC1 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		BA9961DC17CA52AB00977FC1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		BA9961DD17CA52AB00977FC1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		BA9961EC17CA5C7A00977FC1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BA9961EE17CA602E00977FC1 /* Forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Forest.jpg; sourceTree = "<group>"; };
+		BA9961F017CA60F700977FC1 /* qs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qs.png; sourceTree = "<group>"; };
+		BADD5C4117CA21B200BC34CD /* frog_ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frog_ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADD5C4517CA21B200BC34CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BADD5C4717CA21B200BC34CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BADD5C4917CA21B200BC34CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BADD5C4D17CA21B200BC34CD /* frog_ipad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "frog_ipad-Info.plist"; sourceTree = "<group>"; };
+		BADD5C4F17CA21B200BC34CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BADD5C5117CA21B200BC34CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADD5C5317CA21B200BC34CD /* frog_ipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "frog_ipad-Prefix.pch"; sourceTree = "<group>"; };
+		BADD5C5417CA21B200BC34CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BADD5C5517CA21B200BC34CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BADD5C5717CA21B200BC34CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BADD5C5917CA21B200BC34CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BADD5C5B17CA21B200BC34CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BADD5C5D17CA21B200BC34CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BADD5C5E17CA21B200BC34CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BADD5C6117CA21B200BC34CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BADD5C6C17CA223500BC34CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BADD5C6E17CA22B400BC34CD /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		BADD5C6F17CA22B400BC34CD /* croak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = croak.mp3; sourceTree = "<group>"; };
+		BADD5C7017CA22B400BC34CD /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		BADD5C7117CA22B400BC34CD /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		BADD5C7217CA22B400BC34CD /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		BADD5C7317CA22B400BC34CD /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		BADD5C7A17CA2E8F00BC34CD /* jump1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump1.mp3; sourceTree = "<group>"; };
+		BADD5C7C17CA30B800BC34CD /* croak1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = croak1.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADD5C3E17CA21B200BC34CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADD5C6D17CA223500BC34CD /* AVFoundation.framework in Frameworks */,
+				BADD5C4617CA21B200BC34CD /* UIKit.framework in Frameworks */,
+				BADD5C4817CA21B200BC34CD /* Foundation.framework in Frameworks */,
+				BADD5C4A17CA21B200BC34CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADD5C3617CA21B100BC34CD = {
+			isa = PBXGroup;
+			children = (
+				BADD5C4B17CA21B200BC34CD /* frog_ipad */,
+				BADD5C4417CA21B200BC34CD /* Frameworks */,
+				BADD5C4217CA21B200BC34CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADD5C4217CA21B200BC34CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADD5C4117CA21B200BC34CD /* frog_ipad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADD5C4417CA21B200BC34CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADD5C6C17CA223500BC34CD /* AVFoundation.framework */,
+				BADD5C4517CA21B200BC34CD /* UIKit.framework */,
+				BADD5C4717CA21B200BC34CD /* Foundation.framework */,
+				BADD5C4917CA21B200BC34CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADD5C4B17CA21B200BC34CD /* frog_ipad */ = {
+			isa = PBXGroup;
+			children = (
+				BA9961F017CA60F700977FC1 /* qs.png */,
+				BA9961EE17CA602E00977FC1 /* Forest.jpg */,
+				BA9961DC17CA52AB00977FC1 /* MainViewController.h */,
+				BA9961DD17CA52AB00977FC1 /* MainViewController.m */,
+				BA9961EC17CA5C7A00977FC1 /* MainViewController.xib */,
+				BA9961D717CA48BD00977FC1 /* splash.mp3 */,
+				BA9961DA17CA4A8100977FC1 /* reset.png */,
+				BADD5C7C17CA30B800BC34CD /* croak1.mp3 */,
+				BADD5C7A17CA2E8F00BC34CD /* jump1.mp3 */,
+				BADD5C6E17CA22B400BC34CD /* background.mp3 */,
+				BADD5C6F17CA22B400BC34CD /* croak.mp3 */,
+				BADD5C7017CA22B400BC34CD /* frog.png */,
+				BADD5C7117CA22B400BC34CD /* jump.mp3 */,
+				BADD5C7217CA22B400BC34CD /* rock.png */,
+				BADD5C7317CA22B400BC34CD /* sea.jpg */,
+				BADD5C5417CA21B200BC34CD /* AppDelegate.h */,
+				BADD5C5517CA21B200BC34CD /* AppDelegate.m */,
+				BADD5C5D17CA21B200BC34CD /* ViewController.h */,
+				BADD5C5E17CA21B200BC34CD /* ViewController.m */,
+				BADD5C6017CA21B200BC34CD /* ViewController.xib */,
+				BADD5C4C17CA21B200BC34CD /* Supporting Files */,
+			);
+			path = frog_ipad;
+			sourceTree = "<group>";
+		};
+		BADD5C4C17CA21B200BC34CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADD5C4D17CA21B200BC34CD /* frog_ipad-Info.plist */,
+				BADD5C4E17CA21B200BC34CD /* InfoPlist.strings */,
+				BADD5C5117CA21B200BC34CD /* main.m */,
+				BADD5C5317CA21B200BC34CD /* frog_ipad-Prefix.pch */,
+				BADD5C5717CA21B200BC34CD /* Default.png */,
+				BADD5C5917CA21B200BC34CD /* Default@2x.png */,
+				BADD5C5B17CA21B200BC34CD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADD5C4017CA21B200BC34CD /* frog_ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADD5C6517CA21B200BC34CD /* Build configuration list for PBXNativeTarget "frog_ipad" */;
+			buildPhases = (
+				BADD5C3D17CA21B200BC34CD /* Sources */,
+				BADD5C3E17CA21B200BC34CD /* Frameworks */,
+				BADD5C3F17CA21B200BC34CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frog_ipad;
+			productName = frog_ipad;
+			productReference = BADD5C4117CA21B200BC34CD /* frog_ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADD5C3817CA21B100BC34CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "rat chan";
+			};
+			buildConfigurationList = BADD5C3B17CA21B100BC34CD /* Build configuration list for PBXProject "frog_ipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BADD5C3617CA21B100BC34CD;
+			productRefGroup = BADD5C4217CA21B200BC34CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADD5C4017CA21B200BC34CD /* frog_ipad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADD5C3F17CA21B200BC34CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADD5C5017CA21B200BC34CD /* InfoPlist.strings in Resources */,
+				BADD5C5817CA21B200BC34CD /* Default.png in Resources */,
+				BADD5C5A17CA21B200BC34CD /* Default@2x.png in Resources */,
+				BADD5C5C17CA21B200BC34CD /* Default-568h@2x.png in Resources */,
+				BADD5C6217CA21B200BC34CD /* ViewController.xib in Resources */,
+				BADD5C7417CA22B400BC34CD /* background.mp3 in Resources */,
+				BADD5C7517CA22B400BC34CD /* croak.mp3 in Resources */,
+				BADD5C7617CA22B400BC34CD /* frog.png in Resources */,
+				BADD5C7717CA22B400BC34CD /* jump.mp3 in Resources */,
+				BADD5C7817CA22B400BC34CD /* rock.png in Resources */,
+				BADD5C7917CA22B400BC34CD /* sea.jpg in Resources */,
+				BADD5C7B17CA2E8F00BC34CD /* jump1.mp3 in Resources */,
+				BADD5C7D17CA30B800BC34CD /* croak1.mp3 in Resources */,
+				BA9961D817CA48BD00977FC1 /* splash.mp3 in Resources */,
+				BA9961DB17CA4A8100977FC1 /* reset.png in Resources */,
+				BA9961ED17CA5C7A00977FC1 /* MainViewController.xib in Resources */,
+				BA9961EF17CA602E00977FC1 /* Forest.jpg in Resources */,
+				BA9961F117CA60F700977FC1 /* qs.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADD5C3D17CA21B200BC34CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADD5C5217CA21B200BC34CD /* main.m in Sources */,
+				BADD5C5617CA21B200BC34CD /* AppDelegate.m in Sources */,
+				BADD5C5F17CA21B200BC34CD /* ViewController.m in Sources */,
+				BA9961DF17CA52AB00977FC1 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BADD5C4E17CA21B200BC34CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADD5C4F17CA21B200BC34CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BADD5C6017CA21B200BC34CD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADD5C6117CA21B200BC34CD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADD5C6317CA21B200BC34CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BADD5C6417CA21B200BC34CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADD5C6617CA21B200BC34CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "frog_ipad/frog_ipad-Prefix.pch";
+				INFOPLIST_FILE = "frog_ipad/frog_ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BADD5C6717CA21B200BC34CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "frog_ipad/frog_ipad-Prefix.pch";
+				INFOPLIST_FILE = "frog_ipad/frog_ipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADD5C3B17CA21B100BC34CD /* Build configuration list for PBXProject "frog_ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADD5C6317CA21B200BC34CD /* Debug */,
+				BADD5C6417CA21B200BC34CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADD5C6517CA21B200BC34CD /* Build configuration list for PBXNativeTarget "frog_ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADD5C6617CA21B200BC34CD /* Debug */,
+				BADD5C6717CA21B200BC34CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADD5C3817CA21B100BC34CD /* Project object */;
+}
